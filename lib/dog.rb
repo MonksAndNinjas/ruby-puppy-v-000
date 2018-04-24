@@ -2,7 +2,9 @@ require'pry'
 
 class Dog
 
-@@all = []
+ attr_accessor :name
+
+ @@all = []
 
  def initialize(name)
    @name = name
@@ -11,10 +13,6 @@ class Dog
 
  def self.clear_all
    @@all.clear
- end
-
- def name
-   @name = name
  end
 
  def self.all
