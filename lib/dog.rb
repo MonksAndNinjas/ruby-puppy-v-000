@@ -12,4 +12,10 @@ class Dog
    @@all.clear
  end
 
+ def self.all
+   self.each do |puppy|
+     puts "puppy"
+   end
+ end
+
 end
