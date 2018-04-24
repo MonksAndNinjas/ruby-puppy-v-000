@@ -13,6 +13,10 @@ class Dog
    @@all.clear
  end
 
+ def name
+   @name = name
+ end
+
  def self.all
    @@all.each do |puppy|
      puts puppy.name
