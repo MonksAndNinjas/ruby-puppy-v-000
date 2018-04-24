@@ -13,7 +13,7 @@ class Dog
  end
 
  def self.all
-   @@all.each {|puppy| puts "#{self}"}
+   @@all.each {|puppy| puts "#{@name}"}
  end
 
 end
